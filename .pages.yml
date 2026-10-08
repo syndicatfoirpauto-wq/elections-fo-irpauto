@@ -1,0 +1,16 @@
+
+media:
+  input: actifs
+  output: /elections-fo-irpauto/actifs
+
+content:
+  - name: accueil
+    label: "Site élections FO - HTML"
+    type: file
+    path: index.html
+    format: code
+    options:
+      language: html
+    operations:
+      delete: false
+      rename: false
