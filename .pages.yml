@@ -1,16 +1,59 @@
 
 media:
-  input: actifs
-  output: /elections-fo-irpauto/actifs
+  input: assets
+  output: /elections-fo-irpauto/assets
 
 content:
   - name: accueil
-    label: "Site élections FO - HTML"
+    label: "Accueil et présentation"
     type: file
-    path: index.html
-    format: code
-    options:
-      language: html
-    operations:
-      delete: false
-      rename: false
+    path: contenu/accueil.json
+    format: json
+
+  - name: engagements
+    label: "Nos engagements"
+    type: file
+    path: contenu/engagements.json
+    format: json
+
+  - name: engagements_cartes
+    label: "Cartes des engagements"
+    type: file
+    path: contenu/engagements_cartes.json
+    format: json
+
+  - name: bilan
+    label: "Bilan du mandat"
+    type: file
+    path: contenu/bilan.json
+    format: json
+
+  - name: bilan_cartes
+    label: "Réalisations FO"
+    type: file
+    path: contenu/bilan_cartes.json
+    format: json
+
+  - name: equipe
+    label: "Présentation de l'équipe"
+    type: file
+    path: contenu/equipe.json
+    format: json
+
+  - name: candidats
+    label: "Liste des candidats"
+    type: file
+    path: contenu/candidats.json
+    format: json
+
+  - name: video
+    label: "Vidéo électorale"
+    type: file
+    path: contenu/video.json
+    format: json
+
+  - name: vote
+    label: "Appel au vote"
+    type: file
+    path: contenu/vote.json
+    format: json
