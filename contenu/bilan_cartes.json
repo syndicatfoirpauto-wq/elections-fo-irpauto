@@ -1,0 +1,42 @@
+[
+  {
+    "image": "assets/parentalite.png",
+    "titre": "Parentalité",
+    "description": "Choix entre deux dispositifs de congé naissance/adoption, maintien de la rémunération à 100 % selon le dispositif choisi et accompagnement individualisé."
+  },
+  {
+    "image": "assets/organisation du travail.png",
+    "titre": "Organisation du travail",
+    "description": "Télétravail, aménagement du temps de travail et droit à la déconnexion."
+  },
+  {
+    "image": "assets/salaire.png",
+    "titre": "Rémunération et pouvoir d’achat",
+    "description": "Revalorisations salariales, allocation vacances, abondement au PEE, PERCOL et primes exceptionnelles, dont la prime carburant en 2026."
+  },
+  {
+    "image": "assets/cse digital.png",
+    "titre": "FO moteur du CSE",
+    "description": "Modernisation et digitalisation du CSE, nouveau site et élus engagés dans les commissions."
+  },
+  {
+    "image": "assets/bouclier.png",
+    "titre": "Soutien aux aidants",
+    "description": "Premier accord dédié aux salariés aidants : aménagements, télétravail adapté, aides et accompagnement."
+  },
+  {
+    "image": "assets/calendrier.png",
+    "titre": "Accord seniors",
+    "description": "Réduction progressive du temps de travail, retraite progressive, congé senior et préparation de la retraite."
+  },
+  {
+    "image": "assets/schoolmove.png",
+    "titre": "SchoolMouv",
+    "description": "Ouverture du dispositif aux salariés de l’entreprise : un soutien supplémentaire pour les familles."
+  },
+  {
+    "image": "assets/group.png",
+    "titre": "14e mois à la branche",
+    "description": "FO a signé l’accord instaurant un 14e mois. Cet accord n’est pas entré en vigueur après l’opposition d’autres organisations syndicales."
+  }
+]

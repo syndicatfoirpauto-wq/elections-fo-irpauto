@@ -1,0 +1,184 @@
+[
+  {
+    "nom": "Christelle CHARRIER",
+    "site": "Angoulême",
+    "college": "Employés",
+    "mandat": "Titulaire",
+    "photo": "assets/christelle.png"
+  },
+  {
+    "nom": "Mathias CANALES PONT",
+    "site": "Angoulême",
+    "college": "Employés",
+    "mandat": "Titulaire",
+    "photo": "assets/mathias.png"
+  },
+  {
+    "nom": "Julie ZAMIT",
+    "site": "Lyon",
+    "college": "Employés",
+    "mandat": "Titulaire",
+    "photo": "assets/julie.png"
+  },
+  {
+    "nom": "Gallina WANLIN",
+    "site": "Paris",
+    "college": "Employés",
+    "mandat": "Titulaire",
+    "photo": ""
+  },
+  {
+    "nom": "Sonia GUYNOUARD",
+    "site": "Paris",
+    "college": "Employés",
+    "mandat": "Titulaire",
+    "photo": "assets/Sonia.png"
+  },
+  {
+    "nom": "Adeline SALVATORE",
+    "site": "Angoulême",
+    "college": "Employés",
+    "mandat": "Titulaire",
+    "photo": "assets/adeline.png"
+  },
+  {
+    "nom": "Andréia HENTZEL",
+    "site": "Angoulême",
+    "college": "Employés",
+    "mandat": "Suppléante",
+    "photo": "assets/ANDREIA.png"
+  },
+  {
+    "nom": "Jonathan RAYNAUD",
+    "site": "Angoulême",
+    "college": "Employés",
+    "mandat": "Suppléant",
+    "photo": "assets/jonathan.png"
+  },
+  {
+    "nom": "Corinne ANDRIOCCI",
+    "site": "Angoulême",
+    "college": "Employés",
+    "mandat": "Suppléante",
+    "photo": "assets/corine.png"
+  },
+  {
+    "nom": "Véronique PARENT",
+    "site": "Paris",
+    "college": "Employés",
+    "mandat": "Suppléante",
+    "photo": "assets/veronique parent.png"
+  },
+  {
+    "nom": "Janes MORENO",
+    "site": "Paris",
+    "college": "Employés",
+    "mandat": "Suppléante",
+    "photo": "assets/janes.png"
+  },
+  {
+    "nom": "Manon DAUVE",
+    "site": "Angoulême",
+    "college": "Employés",
+    "mandat": "Suppléante",
+    "photo": "assets/manon.png"
+  },
+  {
+    "nom": "Laure CHABOT",
+    "site": "Angoulême",
+    "college": "Agents de maîtrise",
+    "mandat": "Titulaire",
+    "photo": "assets/Laure.png"
+  },
+  {
+    "nom": "Andres CAMPOS RODRIGUEZ",
+    "site": "Angoulême",
+    "college": "Agents de maîtrise",
+    "mandat": "Titulaire",
+    "photo": "assets/andres.png"
+  },
+  {
+    "nom": "Marcela COJOCARU",
+    "site": "Paris",
+    "college": "Agents de maîtrise",
+    "mandat": "Titulaire",
+    "photo": "assets/marcela.png"
+  },
+  {
+    "nom": "Malory BOSC",
+    "site": "BR Grand Est",
+    "college": "Agents de maîtrise",
+    "mandat": "Titulaire",
+    "photo": "assets/Malory.png"
+  },
+  {
+    "nom": "Kévin BAURREAU",
+    "site": "Angoulême",
+    "college": "Agents de maîtrise",
+    "mandat": "Suppléant",
+    "photo": "assets/Kevin.png"
+  },
+  {
+    "nom": "Anne-Cécile CHIRON",
+    "site": "Angoulême",
+    "college": "Agents de maîtrise",
+    "mandat": "Suppléante",
+    "photo": "assets/anne c.png"
+  },
+  {
+    "nom": "Margarita MARTIN",
+    "site": "Paris",
+    "college": "Agents de maîtrise",
+    "mandat": "Suppléante",
+    "photo": ""
+  },
+  {
+    "nom": "Vanessa MONTAUBAN JACQUET",
+    "site": "Angoulême",
+    "college": "Agents de maîtrise",
+    "mandat": "Suppléante",
+    "photo": "assets/vanessa.png"
+  },
+  {
+    "nom": "Virginie DELAGE",
+    "site": "Angoulême",
+    "college": "Cadres",
+    "mandat": "Titulaire",
+    "photo": "assets/virginie.png"
+  },
+  {
+    "nom": "Julien MACOUIN",
+    "site": "Angoulême",
+    "college": "Cadres",
+    "mandat": "Titulaire",
+    "photo": "assets/julien 2.png"
+  },
+  {
+    "nom": "Nahid BENLAHOUCINE",
+    "site": "Paris",
+    "college": "Cadres",
+    "mandat": "Titulaire",
+    "photo": "assets/nahid.png"
+  },
+  {
+    "nom": "Juan-Carlos MORGADO DOS SANTOS",
+    "site": "Paris",
+    "college": "Cadres",
+    "mandat": "Suppléant",
+    "photo": "assets/juan carlos.png"
+  },
+  {
+    "nom": "Elisabeth LE DUR",
+    "site": "Angoulême",
+    "college": "Cadres",
+    "mandat": "Suppléante",
+    "photo": ""
+  },
+  {
+    "nom": "Jérôme SURMANY",
+    "site": "Angoulême",
+    "college": "Cadres",
+    "mandat": "Suppléant",
+    "photo": "assets/jerome.png"
+  }
+]
