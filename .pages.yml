@@ -1,59 +1,107 @@
-
 media:
-  input: assets
-  output: /elections-fo-irpauto/assets
+  input: actifs
+  output: /elections-fo-irpauto/actifs
 
 content:
   - name: accueil
-    label: "Accueil et présentation"
+    label: Accueil et liens
     type: file
     path: contenu/accueil.json
     format: json
+    fields:
+      - name: titre
+        label: Titre principal
+        type: string
+      - name: sous_titre
+        label: Sous-titre
+        type: string
+      - name: introduction
+        label: Texte d'introduction
+        type: text
+      - name: lien_profession_foi
+        label: Lien vers la profession de foi
+        type: string
+      - name: lien_video
+        label: Lien vers la video
+        type: string
 
   - name: engagements
-    label: "Nos engagements"
+    label: Nos engagements
     type: file
     path: contenu/engagements.json
     format: json
-
-  - name: engagements_cartes
-    label: "Cartes des engagements"
-    type: file
-    path: contenu/engagements_cartes.json
-    format: json
+    fields:
+      - name: introduction
+        label: Introduction
+        type: text
+      - name: priorites
+        label: Priorites FO
+        type: object
+        list: true
+        fields:
+          - name: titre
+            label: Titre
+            type: string
+          - name: description
+            label: Description
+            type: text
 
   - name: bilan
-    label: "Bilan du mandat"
+    label: Bilan du mandat
     type: file
     path: contenu/bilan.json
     format: json
-
-  - name: bilan_cartes
-    label: "Réalisations FO"
-    type: file
-    path: contenu/bilan_cartes.json
-    format: json
+    fields:
+      - name: introduction
+        label: Introduction
+        type: text
+      - name: actions
+        label: Actions et avancees
+        type: object
+        list: true
+        fields:
+          - name: titre
+            label: Titre
+            type: string
+          - name: description
+            label: Description
+            type: text
 
   - name: equipe
-    label: "Présentation de l'équipe"
+    label: Notre equipe
     type: file
     path: contenu/equipe.json
     format: json
-
-  - name: candidats
-    label: "Liste des candidats"
-    type: file
-    path: contenu/candidats.json
-    format: json
-
-  - name: video
-    label: "Vidéo électorale"
-    type: file
-    path: contenu/video.json
-    format: json
-
-  - name: vote
-    label: "Appel au vote"
-    type: file
-    path: contenu/vote.json
-    format: json
+    fields:
+      - name: introduction
+        label: Presentation de l'equipe
+        type: text
+      - name: candidats
+        label: Candidats
+        type: object
+        list: true
+        fields:
+          - name: nom
+            label: Nom affiche
+            type: string
+          - name: college
+            label: College electoral
+            type: select
+            options:
+              values:
+                - Employes
+                - Agents de maitrise
+                - Cadres
+          - name: statut
+            label: Liste
+            type: select
+            options:
+              values:
+                - Titulaire
+                - Suppleant
+          - name: site
+            label: Site
+            type: string
+          - name: photo
+            label: Photo
+            type: image
