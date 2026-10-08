@@ -5,7 +5,7 @@
 <main><section class="hero" id="accueil"><div class="wrap hero-inner"><div><span class="pill">ÉLECTIONS PROFESSIONNELLES · NOVEMBRE 2026</span><h1>Une équipe proche de vous.<br>Une voix qui compte.</h1><p>Employés, agents de maîtrise, cadres : <strong>un même engagement, à vos côtés.</strong> Découvrez les actions, les engagements et les femmes et les hommes de FO.</p><div class="hero-actions"><a class="btn alt" href="#equipe">Découvrir notre liste ↗</a><a class="btn" href="#bilan" style="background:#ffffff25;border:1px solid #ffffff70">Notre bilan ↓</a></div></div><div class="hero-art"><img src="assets/une%20equipe%20proche%20de%20vous.png" alt="Une équipe proche de vous" onerror="this.src='assets/team%20claque%20des%20mains.png'"></div></div></section>
 <section class="section soft" id="bilan"><div class="wrap"><div class="section-label">Un mandat utile</div><h2>Des avancées visibles, des actions concrètes</h2><p class="lead">FO s'est mobilisée sur la rémunération, la parentalité, l'organisation du travail et les activités sociales et culturelles.</p><div class="cards" id="achievements"></div><div style="margin-top:30px;text-align:center"><a href="profession-de-foi.pdf" target="_blank" class="btn">Lire la profession de foi complète ↗</a></div></div></section>
 <section class="section" id="engagements"><div class="wrap"><div class="section-label">Nos engagements pour demain</div><h2>Des priorités construites avec vous, pour vous</h2><p class="lead">Quatre axes pour défendre vos droits et améliorer le quotidien de tous les salariés.</p><div class="commit" id="commitments"></div></div></section>
-<section class="section soft" id="video"><div class="wrap"><div class="section-label">Notre campagne en images</div><h2>Découvrez FO en vidéo</h2><p class="lead">Un espace réservé à votre vidéo de présentation. Il suffit d'ajouter le fichier <strong>video-campagne.mp4</strong> au dossier du site.</p><div class="video" id="videoBox"><div><div class="play">▶</div><h3>La vidéo de l'équipe FO</h3><p>Prochainement disponible</p></div></div></div></section>
+<section class="section soft" id="video"><div class="wrap"><div class="section-label">Notre campagne en images</div><h2>Découvrez FO en vidéo</h2><p class="lead">Découvrez notre équipe et nos engagements en vidéo.</p><div class="video" id="videoBox"><div><div class="play">▶</div><h3>La vidéo de l'équipe FO</h3><p>Prochainement disponible</p></div></div></div></section>
 <section class="section" id="equipe"><div class="wrap"><div class="section-label">Notre liste</div><h2>Une équipe plurielle, à votre image</h2><p class="lead">Des femmes et des hommes issus de différents métiers et sites, réunis pour vous représenter, vous écouter et agir pour l'intérêt de tous.</p><div class="filters" id="filters"><button class="filter active" data-filter="Tous">Toute l'équipe</button><button class="filter" data-filter="Employés">Employés</button><button class="filter" data-filter="Agents de maîtrise">Agents de maîtrise</button><button class="filter" data-filter="Cadres">Cadres</button></div><div class="team-grid" id="team"></div></div></section>
 <section class="section vote" id="vote"><div class="wrap"><div class="section-label" style="color:#ffb5c0">En novembre, je vote FO</div><h2>Ensemble, donnons plus de poids à notre voix.</h2><p>Voter pour l'équipe FO, c'est lui donner les moyens de défendre vos intérêts et de peser davantage dans les négociations. <strong>Votez pour la liste entière, sans raturer de nom.</strong></p><a class="btn" href="#equipe">Je découvre les candidats ↑</a></div></section></main>
 <footer><div class="wrap"><span>© 2026 · FO IRP AUTO Gestion · Élections professionnelles</span><span>Écouter · Défendre · Proposer · Obtenir</span></div></footer>
@@ -13,7 +13,12 @@
 const A='assets/';
 const fallback=`data:image/svg+xml,${encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect width="400" height="300" fill="#e8ecf3"/><circle cx="200" cy="105" r="55" fill="#a7b2c5"/><ellipse cx="200" cy="270" rx="120" ry="105" fill="#a7b2c5"/></svg>')}`;
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const url=s=>{const x=String(s||'');return /^(https?:\/\/|#|assets\/|video-campagne\.mp4|profession-de-foi\.pdf)/i.test(x)?x:'#';};
+const url = s => {
+ const x = String(s || '').trim();
+ if (/^(https?:\/\/|#|assets\/)/i.test(x)) return x;
+ if (/^[a-zA-Z0-9_-]+\.(pdf|mp4)$/i.test(x)) return x;
+ return '#';
+};
 let people=[];
 function renderTeam(f='Tous'){
  document.getElementById('team').innerHTML=people.filter(p=>f==='Tous'||p.college===f).map(p=>`<article class="person reveal visible"><img loading="lazy" src="${p.photo?encodeURI(p.photo):fallback}" onerror="this.src='${fallback}'" alt="Portrait de ${esc(p.nom)}"><div class="info"><strong>${esc(p.nom)}</strong><small>${esc(p.site)} · ${esc(p.college)}</small><span class="role">${esc(p.mandat)}</span></div></article>`).join('');
@@ -35,7 +40,18 @@ async function startFO(){
  document.getElementById('commitments').innerHTML=d.engagements_cartes.map((x,i)=>`<article class="card reveal visible"><span class="section-label">0${i+1}</span><h3>${esc(x.titre)}</h3><ul>${(x.points||[]).map(t=>`<li>${esc(t)}</li>`).join('')}</ul></article>`).join('');
  people=d.candidats;renderTeam();
  const videoUrl=d.video.lien_video;
- if(videoUrl){const v=document.createElement('video');v.controls=true;v.preload='metadata';v.playsInline=true;v.src=url(videoUrl);v.addEventListener('loadedmetadata',()=>{const box=document.getElementById('videoBox');box.innerHTML='';box.append(v)});}
+ if (videoUrl) {
+   const v = document.createElement('video');
+   v.controls = true;
+   v.preload = 'metadata';
+   v.playsInline = true;
+   v.src = url(videoUrl);
+   v.style.width = '100%';
+   const box = document.getElementById('videoBox');
+   box.innerHTML = '';
+   box.appendChild(v);
+   v.addEventListener('error', () => console.error('Erreur de chargement vidéo :', v.error));
+  }
  }catch(err){console.error('Chargement des contenus FO :',err);document.getElementById('achievements').textContent='Impossible de charger les contenus. Vérifiez les fichiers du dossier contenu.';}
 }
 document.querySelectorAll('.filter').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.filter').forEach(x=>x.classList.remove('active'));b.classList.add('active');renderTeam(b.dataset.filter)}));
