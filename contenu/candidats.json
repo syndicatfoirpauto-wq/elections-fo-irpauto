@@ -160,13 +160,6 @@
     "mandat": "Titulaire",
     "photo": "assets/nahid.png"
   },
-    {
-    "nom": "Anne BARRERE",
-    "site": "Paris",
-    "college": "Cadres",
-    "mandat": "Titulaire",
-    "photo": "assets/Anne.png"
-  },
   {
     "nom": "Juan-Carlos MORGADO DOS SANTOS",
     "site": "Paris",
@@ -187,12 +180,5 @@
     "college": "Cadres",
     "mandat": "Suppléant",
     "photo": "assets/jerome.png"
-  },
-    {
-    "nom": "Dimitri ROSSIGNOL",
-    "site": "Angoulême",
-    "college": "Cadres",
-    "mandat": "Suppléant",
-    "photo": "assets/dimitri.png"
   }
 ]

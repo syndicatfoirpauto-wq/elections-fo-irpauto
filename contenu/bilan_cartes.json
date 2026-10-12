@@ -2,56 +2,67 @@
   {
     "image": "assets/parentalite.png",
     "titre": "Parentalité : mieux accompagner les familles",
-    "description": "Choix entre deux dispositifs de congé naissance/adoption, maintien de la rémunération à 100 % selon le dispositif choisi, prise en compte individualisée des situations et entretien de reprise."
+    "description": "Choix entre deux dispositifs de congé naissance/adoption, maintien de la rémunération à 100 % selon le dispositif choisi, prise en compte individualisée des situations et entretien de reprise.",
+    "categorie": "droits"
   },
   {
     "image": "assets/Un duo complice pour avancer.png",
     "titre": "Aidants : une reconnaissance concrète",
-    "description": "Premier accord dédié aux salariés aidants : aménagements du temps de travail, télétravail adapté, aides financières et dispositifs de soutien."
+    "description": "Premier accord dédié aux salariés aidants : aménagements du temps de travail, télétravail adapté, aides financières et dispositifs de soutien.",
+    "categorie": "droits"
   },
   {
     "image": "assets/senior v2.png",
     "titre": "Fin de carrière : préparer la transition",
-    "description": "Accord seniors : réduction progressive du temps de travail, retraite progressive, congé senior et accompagnement RH."
+    "description": "Accord seniors : réduction progressive du temps de travail, retraite progressive, congé senior et accompagnement RH.",
+    "categorie": "droits"
   },
   {
     "image": "assets/salaire.png",
     "titre": "Rémunération et pouvoir d’achat",
-    "description": "Revalorisation des salaires, de l’allocation vacances et de l’abondement au PEE ; obtention du PERCOL et de primes exceptionnelles, dont la prime carburant en 2026. Défense de l’équité salariale."
+    "description": "Revalorisation des salaires, de l’allocation vacances et de l’abondement au PEE ; obtention du PERCOL et de primes exceptionnelles, dont la prime carburant en 2026. Défense de l’équité salariale.",
+    "categorie": "pouvoir"
   },
   {
     "image": "assets/organisation du travail.png",
     "titre": "Organisation du travail",
-    "description": "Télétravail, aménagement du temps de travail, droit à la déconnexion et dispositifs pour mieux concilier vie professionnelle et vie personnelle."
+    "description": "Télétravail, aménagement du temps de travail, droit à la déconnexion et dispositifs pour mieux concilier vie professionnelle et vie personnelle.",
+    "categorie": "pouvoir"
   },
   {
-    "image": "assets/14 mois.png",
+    "image": "assets/group.png",
     "titre": "14e mois à la branche : FO signataire",
-    "description": "FO a signé l’accord instaurant un 14e mois à la branche. Il n’est pas entré en vigueur après l’opposition d’autres organisations syndicales."
+    "description": "FO a signé l’accord instaurant un 14e mois à la branche. Il n’est pas entré en vigueur après l’opposition d’autres organisations syndicales.",
+    "categorie": "pouvoir"
   },
   {
     "image": "assets/schoolmove.png",
     "titre": "SchoolMouv pour les salariés",
-    "description": "FO a obtenu l’ouverture du dispositif SchoolMouv aux salariés de l’entreprise, un soutien supplémentaire pour les familles."
+    "description": "FO a obtenu l’ouverture du dispositif SchoolMouv aux salariés de l’entreprise, un soutien supplémentaire pour les familles.",
+    "categorie": "pouvoir"
   },
   {
-    "image": "assets/01_CSE_modernise.png",
+    "image": "assets/cse digital.png",
     "titre": "Un CSE modernisé et accessible",
-    "description": "Création et développement du site CSE, dématérialisation des demandes de participation et démarches simplifiées pour les salariés de tous les sites."
+    "description": "Création et développement du site CSE, dématérialisation des demandes de participation et démarches simplifiées pour les salariés de tous les sites.",
+    "categorie": "cse"
   },
   {
-    "image": "assets/02_Activites_diversifiees.png",
+    "image": "assets/une equipe proche de vous.png",
     "titre": "Des activités CSE relancées",
-    "description": "Reprise des voyages après la crise sanitaire, diversification des formules et des budgets, pour redynamiser les activités sociales et culturelles."
+    "description": "Reprise des voyages après la crise sanitaire, diversification des formules et des budgets, pour redynamiser les activités sociales et culturelles.",
+    "categorie": "cse"
   },
   {
-    "image": "assets/03_Gestion_responsable.png",
+    "image": "assets/bouclier.png",
     "titre": "Une gestion responsable et équitable",
-    "description": "Adaptation aux règles URSSAF, égalité de traitement et d’accès aux services, sécurisation durable des prestations du CSE."
+    "description": "Adaptation aux règles URSSAF, égalité de traitement et d’accès aux services, sécurisation durable des prestations du CSE.",
+    "categorie": "cse"
   },
   {
-    "image": "assets/04_Elus_investis.png",
+    "image": "assets/team claque des mains.png",
     "titre": "Des élus pleinement investis",
-    "description": "Secrétariat et trésorerie titulaires assurés par deux élus FO, participation et animation d’une majorité de commissions."
+    "description": "Secrétariat et trésorerie titulaires assurés par deux élus FO, participation et animation d’une majorité de commissions.",
+    "categorie": "cse"
   }
 ]
