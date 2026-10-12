@@ -5,7 +5,8 @@
       "Agir pour des augmentations salariales et une épargne salariale attractive (PEE, PERCOL).",
       "Défendre la transparence des rémunérations et l’égalité professionnelle.",
       "Mieux reconnaître les compétences et offrir de véritables perspectives d’évolution des carrières."
-    ]
+    ],
+    "image": "assets/salaire.png"
   },
   {
     "titre": "Un travail qui respecte votre équilibre",
@@ -14,7 +15,8 @@
       "Renforcer le bien-être et la santé mentale.",
       "Défendre le télétravail, l’aménagement du temps de travail et le droit à la déconnexion.",
       "Accompagner les transformations des métiers et les étapes de la vie professionnelle."
-    ]
+    ],
+    "image": "assets/organisation du travail.png"
   },
   {
     "titre": "Un CSE plus simple, plus moderne et plus équitable",
@@ -23,7 +25,8 @@
       "Mettre en place le paiement par carte bancaire et ouvrir davantage de subventions via Meyclub.",
       "Développer les partenariats et les avantages accessibles à tous.",
       "Garantir un accès équitable aux prestations, quel que soit le site ou la situation."
-    ]
+    ],
+    "image": "assets/01_CSE_modernise.png"
   },
   {
     "titre": "Des élus proches de vous, une voix qui compte",
@@ -32,6 +35,7 @@
       "Relayer vos propositions auprès de la Direction.",
       "Vous informer régulièrement des négociations et des décisions.",
       "Recueillir vos propositions pour construire ensemble de nouvelles avancées."
-    ]
+    ],
+    "image": "assets/04_Elus_investis.png"
   }
 ]
