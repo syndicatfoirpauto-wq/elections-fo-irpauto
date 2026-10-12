@@ -1,42 +1,57 @@
 [
   {
     "image": "assets/parentalite.png",
-    "titre": "Parentalité",
-    "description": "Choix entre deux dispositifs de congé naissance/adoption, maintien de la rémunération à 100 % selon le dispositif choisi et accompagnement individualisé."
+    "titre": "Parentalité : mieux accompagner les familles",
+    "description": "Choix entre deux dispositifs de congé naissance/adoption, maintien de la rémunération à 100 % selon le dispositif choisi, prise en compte individualisée des situations et entretien de reprise."
   },
   {
-    "image": "assets/organisation du travail.png",
-    "titre": "Organisation du travail",
-    "description": "Télétravail, aménagement du temps de travail et droit à la déconnexion."
+    "image": "assets/Un duo complice pour avancer.png",
+    "titre": "Aidants : une reconnaissance concrète",
+    "description": "Premier accord dédié aux salariés aidants : aménagements du temps de travail, télétravail adapté, aides financières et dispositifs de soutien."
+  },
+  {
+    "image": "assets/senior v2.png",
+    "titre": "Fin de carrière : préparer la transition",
+    "description": "Accord seniors : réduction progressive du temps de travail, retraite progressive, congé senior et accompagnement RH."
   },
   {
     "image": "assets/salaire.png",
     "titre": "Rémunération et pouvoir d’achat",
-    "description": "Revalorisations salariales, allocation vacances, abondement au PEE, PERCOL et primes exceptionnelles, dont la prime carburant en 2026."
+    "description": "Revalorisation des salaires, de l’allocation vacances et de l’abondement au PEE ; obtention du PERCOL et de primes exceptionnelles, dont la prime carburant en 2026. Défense de l’équité salariale."
   },
   {
-    "image": "assets/cse digital.png",
-    "titre": "FO moteur du CSE",
-    "description": "Modernisation et digitalisation du CSE, nouveau site et élus engagés dans les commissions."
-  },
-  {
-    "image": "assets/Un duo complice pour avancer.png",
-    "titre": "Soutien aux aidants",
-    "description": "Premier accord dédié aux salariés aidants : aménagements, télétravail adapté, aides et accompagnement."
-  },
-  {
-    "image": "assets/senior v2.png",
-    "titre": "Accord seniors",
-    "description": "Réduction progressive du temps de travail, retraite progressive, congé senior et préparation de la retraite."
-  },
-  {
-    "image": "assets/schoolmove.png",
-    "titre": "SchoolMouv",
-    "description": "Ouverture du dispositif aux salariés de l’entreprise : un soutien supplémentaire pour les familles, à l'initiative de FO."
+    "image": "assets/organisation du travail.png",
+    "titre": "Organisation du travail",
+    "description": "Télétravail, aménagement du temps de travail, droit à la déconnexion et dispositifs pour mieux concilier vie professionnelle et vie personnelle."
   },
   {
     "image": "assets/group.png",
-    "titre": "Proposition du 14e mois à la branche",
-    "description": "FO signataire de cet accord. Non appliqué pour cause de véto d’autres organisations syndicales."
+    "titre": "14e mois à la branche : FO signataire",
+    "description": "FO a signé l’accord instaurant un 14e mois à la branche. Il n’est pas entré en vigueur après l’opposition d’autres organisations syndicales."
+  },
+  {
+    "image": "assets/schoolmove.png",
+    "titre": "SchoolMouv pour les salariés",
+    "description": "FO a obtenu l’ouverture du dispositif SchoolMouv aux salariés de l’entreprise, un soutien supplémentaire pour les familles."
+  },
+  {
+    "image": "assets/cse digital.png",
+    "titre": "Un CSE modernisé et accessible",
+    "description": "Création et développement du site CSE, dématérialisation des demandes de participation et démarches simplifiées pour les salariés de tous les sites."
+  },
+  {
+    "image": "assets/une equipe proche de vous.png",
+    "titre": "Des activités CSE relancées",
+    "description": "Reprise des voyages après la crise sanitaire, diversification des formules et des budgets, pour redynamiser les activités sociales et culturelles."
+  },
+  {
+    "image": "assets/bouclier.png",
+    "titre": "Une gestion responsable et équitable",
+    "description": "Adaptation aux règles URSSAF, égalité de traitement et d’accès aux services, sécurisation durable des prestations du CSE."
+  },
+  {
+    "image": "assets/team claque des mains.png",
+    "titre": "Des élus pleinement investis",
+    "description": "Secrétariat et trésorerie titulaires assurés par deux élus FO, participation et animation d’une majorité de commissions."
   }
 ]
