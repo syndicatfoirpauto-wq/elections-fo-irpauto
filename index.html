@@ -135,12 +135,12 @@ async function startFO(){
  const names=['accueil','bilan','engagements','video','equipe','vote','bilan_cartes','engagements_cartes','candidats'];
  const vals=await Promise.all(names.map(n=>getJSON('contenu/'+n+'.json')));
  const d=Object.fromEntries(names.map((n,i)=>[n,vals[i]]));
- for(const n of ['accueil','bilan','engagements','video','equipe','vote']){
+ for(const n of ['bilan','engagements','video','equipe','vote']){
   const sec=document.getElementById(n);const h=sec.querySelector('h1,h2');if(h)h.textContent=d[n].titre;
   const par=sec.querySelector('p.lead')||(n==='accueil'||n==='vote'?sec.querySelector('p'):null);
   if(par)par.textContent=d[n].description;
  }
- const heroImg=document.querySelector('.hero-art img');if(d.accueil.image)heroImg.src=url(d.accueil.image);
+ const heroImg=document.querySelector('.hero-art img');if(heroImg && d.accueil.image)heroImg.src=url(d.accueil.image);
  const pdf=document.querySelector('#bilan a[href$=".pdf"]');if(pdf)pdf.href=url(d.bilan.lien_profession);
  const bilanSections=[
   {id:'droits',titre:'Des droits renforcés, à chaque étape de la vie'},
