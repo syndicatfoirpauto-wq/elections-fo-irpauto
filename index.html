@@ -110,7 +110,7 @@ header{box-shadow:0 1px 0 #dce2ec;}
 <a class="hero-discover" href="#bilan">Découvrir <span>⌄</span></a>
 </section>
 <section class="section soft" id="bilan"><div class="wrap"><div class="section-label">Un mandat utile</div><h2>Des droits renforcés, des résultats concrets</h2><p class="lead">FO s'est mobilisée sur la rémunération, la parentalité, l'organisation du travail et les activités sociales et culturelles.</p><div class="cards" id="achievements"></div><div style="margin-top:30px;text-align:center"><a class="btn" href="Profession-de-foi_LD.pdf" target="_blank">Lire la profession de foi complète ↗</a></div></div></section>
-<section class="section" id="engagements"><div class="wrap"><div class="section-label">Nos engagements pour demain</div><h2>Nos quatre priorités pour 2026–2030</h2><p class="lead">Quatre axes pour défendre vos droits et améliorer le quotidien de tous les salariés.</p><div class="commit" id="commitments"></div><div aria-label="Notre méthode" class="method"><span>Écouter vos attentes</span><span><strong>Défendre</strong> vos droits</span><span>Proposer des solutions</span><span><strong>Obtenir</strong> des avancées</span></div></div></section>
+<section class="section" id="engagements"><div class="wrap"><div class="section-label">Nos engagements pour demain</div><h2>Nos quatre priorités pour 2026–2030</h2><p class="lead">Quatre axes pour défendre vos droits et améliorer le quotidien de tous les salariés.</p><div class="commit" id="commitments"></div><p class="lead" style="margin-top:28px;max-width:920px">Notre méthode ne se limite pas à formuler des revendications : les élus FO étudient les dossiers, construisent des propositions, négocient et suivent les engagements pris. Notre priorité est de transformer vos attentes en avancées concrètes, sans renoncer à défendre vos droits lorsque les négociations sont difficiles.</p><div aria-label="Notre méthode" class="method"><span>Écouter vos attentes</span><span><strong>Défendre</strong> vos droits</span><span>Proposer des solutions</span><span><strong>Obtenir</strong> des avancées</span></div></div></section>
 <section class="section soft" id="video"><div class="wrap"><div class="section-label">Notre campagne en images</div><h2>Découvrez FO en vidéo</h2><p class="lead">Découvrez notre équipe et nos engagements en vidéo.</p><div class="video" id="videoBox"><div><div class="play">▶</div><h3>La vidéo de l'équipe FO</h3><p>Prochainement disponible</p></div></div></div></section>
 <section class="section" id="equipe"><div class="wrap"><div class="section-label">Notre liste</div><h2>Une équipe plurielle, à votre image</h2><p class="lead">Des femmes et des hommes issus de différents métiers et sites, réunis pour vous représenter, vous écouter et agir pour l'intérêt de tous.</p><div class="filters" id="filters"><button class="filter active" data-filter="Tous">Toute l'équipe</button><button class="filter" data-filter="Employés">Employés</button><button class="filter" data-filter="Agents de maîtrise">Agents de maîtrise</button><button class="filter" data-filter="Cadres">Cadres</button></div><div class="team-grid" id="team"></div></div></section>
 <section class="section vote" id="vote"><div class="wrap"><div class="section-label" style="color:#ffb5c0">En novembre, je vote FO</div><h2>Ensemble, donnons plus de poids à notre voix.</h2><p>Voter pour l'équipe FO, c'est lui donner les moyens de défendre vos intérêts et de peser davantage dans les négociations. <strong>Votez pour la liste entière, sans raturer de nom.</strong></p><a class="btn" href="#equipe">Je découvre les candidats ↑</a></div></section></main>
@@ -133,15 +133,15 @@ async function getJSON(path){const response=await fetch(path,{cache:'default'});
 async function startFO(){
  try{
  const names=['accueil','bilan','engagements','video','equipe','vote','bilan_cartes','engagements_cartes','candidats'];
- const vals=await Promise.all(names.map(n=>getJSON('contenu/'+n+'.json')));
+ const vals=await Promise.all(names.map(async n=>{try{return await getJSON('contenu/'+n+'.json')}catch(e){console.error('Erreur contenu '+n,e);return n==='candidats'||n==='bilan_cartes'||n==='engagements_cartes'?[]:{}}}));
  const d=Object.fromEntries(names.map((n,i)=>[n,vals[i]]));
  for(const n of ['bilan','engagements','video','equipe','vote']){
-  const sec=document.getElementById(n);const h=sec.querySelector('h1,h2');if(h)h.textContent=d[n].titre;
+  const sec=document.getElementById(n);const h=sec.querySelector('h1,h2');if(h&&d[n].titre)h.textContent=d[n].titre;
   const par=sec.querySelector('p.lead')||(n==='accueil'||n==='vote'?sec.querySelector('p'):null);
-  if(par)par.textContent=d[n].description;
+  if(par&&d[n].description)par.textContent=d[n].description;
  }
  const heroImg=document.querySelector('.hero-art img');if(heroImg && d.accueil.image)heroImg.src=url(d.accueil.image);
- const pdf=document.querySelector('#bilan a[href$=".pdf"]');if(pdf)pdf.href=url(d.bilan.lien_profession);
+ const pdf=document.querySelector('#bilan a[href$=".pdf"]');if(pdf&&d.bilan.lien_profession)pdf.href=url(d.bilan.lien_profession);
  const bilanSections=[
   {id:'droits',titre:'Des droits renforcés, à chaque étape de la vie'},
   {id:'pouvoir',titre:'Pouvoir d’achat et conditions de travail : FO mobilisée'},
