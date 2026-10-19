@@ -2,39 +2,40 @@
   {
     "titre": "Des rémunérations plus justes et des parcours reconnus",
     "points": [
-      "Agir pour des augmentations salariales et une épargne salariale attractive (PEE, PERCOL).",
+      "Négocier des augmentations salariales, une épargne salariale attractive (PEE, PERCOL) et de nouveaux accords, notamment sur l’intéressement.",
       "Défendre la transparence des rémunérations et l’égalité professionnelle.",
-      "Mieux reconnaître les compétences et offrir de véritables perspectives d’évolution des carrières."
+      "Reconnaître les compétences dès l’intégration et favoriser les évolutions professionnelles tout au long de la carrière.",
+      "Obtenir la revalorisation des minima conventionnels pour augmenter la prime d’ancienneté et poursuivre l’action pour faire aboutir le 14e mois."
     ],
     "image": "assets/salaire.png"
   },
   {
     "titre": "Un travail qui respecte votre équilibre",
     "points": [
-      "Prévenir la surcharge et les risques psychosociaux.",
-      "Renforcer le bien-être et la santé mentale.",
+      "Prévenir la surcharge de travail et les risques psychosociaux.",
+      "Renforcer les actions de prévention, de bien-être et de santé mentale.",
       "Défendre le télétravail, l’aménagement du temps de travail et le droit à la déconnexion.",
-      "Accompagner les transformations des métiers et les étapes de la vie professionnelle."
+      "Accompagner les transformations des métiers, la mobilité et chaque étape de la vie professionnelle : parentalité, parcours et fin de carrière."
     ],
     "image": "assets/organisation du travail.png"
   },
   {
     "titre": "Un CSE plus simple, plus moderne et plus équitable",
     "points": [
-      "Poursuivre la modernisation du site et développer les services.",
+      "Poursuivre la modernisation du site CSE, simplifier les démarches et développer les services.",
       "Mettre en place le paiement par carte bancaire et ouvrir davantage de subventions via Meyclub.",
-      "Développer les partenariats et les avantages accessibles à tous.",
-      "Garantir un accès équitable aux prestations, quel que soit le site ou la situation."
+      "Développer les partenariats et les avantages utiles à tous les salariés.",
+      "Garantir un accès équitable aux prestations, quel que soit le site ou la situation personnelle."
     ],
     "image": "assets/site pc.png"
   },
   {
     "titre": "Des élus proches de vous, une voix qui compte",
     "points": [
-      "Renforcer notre présence sur les sites et multiplier les échanges.",
-      "Relayer vos propositions auprès de la Direction.",
-      "Vous informer régulièrement des négociations et des décisions.",
-      "Recueillir vos propositions pour construire ensemble de nouvelles avancées."
+      "Renforcer la présence des élus sur les différents sites et multiplier les occasions d’échanger.",
+      "Faire remonter vos attentes et propositions auprès de la Direction.",
+      "Informer régulièrement les salariés sur les négociations et les décisions prises.",
+      "Recueillir vos idées pour construire ensemble des revendications et obtenir de nouvelles avancées."
     ],
     "image": "assets/Discussion en équipe avec bulles de chat.png"
   }
