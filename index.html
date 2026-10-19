@@ -156,6 +156,7 @@ async function startFO(){
    const v = document.createElement('video');
    v.controls = true;
    v.preload = 'none';
+   v.poster = 'assets/poster_video.png';
    v.playsInline = true;
    v.src = url(videoUrl);
    v.setAttribute('aria-label','Vidéo de présentation de l’équipe FO');
