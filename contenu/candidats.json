@@ -161,12 +161,12 @@
     "photo": "assets/nahid.png"
   },
     {
-    "nom": "Anne BARRERE",
+    "nom": "Dimitri ROSSIGNOL",
     "site": "Angoulême",
     "college": "Cadres",
     "mandat": "Titulaire",
-    "photo": "assets/Anne.png"
-  },
+    "photo": "assets/dimitri.png"
+  }
   {
     "nom": "Juan-Carlos MORGADO DOS SANTOS",
     "site": "Paris",
@@ -188,11 +188,11 @@
     "mandat": "Suppléant",
     "photo": "assets/jerome.png"
   },
-    {
-    "nom": "Dimitri ROSSIGNOL",
+      {
+    "nom": "Anne BARRERE",
     "site": "Angoulême",
     "college": "Cadres",
-    "mandat": "Suppléant",
-    "photo": "assets/dimitri.png"
+    "mandat": "Suppléante",
+    "photo": "assets/Anne.png"
   }
 ]
