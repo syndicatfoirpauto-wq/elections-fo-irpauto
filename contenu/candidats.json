@@ -6,48 +6,20 @@
     "mandat": "Titulaire",
     "photo": "assets/christelle.png"
   },
-  {
-    "nom": "Mathias CANALES PONT",
-    "site": "Angoulême",
-    "college": "Employés",
-    "mandat": "Titulaire",
-    "photo": "assets/mathias.png"
-  },
-  {
-    "nom": "Julie ZAMIT",
-    "site": "Lyon",
-    "college": "Employés",
-    "mandat": "Titulaire",
-    "photo": "assets/julie.png"
-  },
-  {
-    "nom": "Gallina WANLIN",
-    "site": "Paris",
-    "college": "Employés",
-    "mandat": "Titulaire",
-    "photo": "assets/Gallina.png"
-  },
-  {
-    "nom": "Sonia GUYNOUARD",
-    "site": "Paris",
-    "college": "Employés",
-    "mandat": "Titulaire",
-    "photo": "assets/Sonia.png"
-  },
-  {
-    "nom": "Adeline SALVATORE",
-    "site": "Angoulême",
-    "college": "Employés",
-    "mandat": "Titulaire",
-    "photo": "assets/adeline.png"
-  },
-  {
+    {
     "nom": "Andréia HENTZEL",
     "site": "Angoulême",
     "college": "Employés",
     "mandat": "Suppléante",
     "photo": "assets/ANDREIA.png"
   },
+  {
+    "nom": "Mathias CANALES PONT",
+    "site": "Angoulême",
+    "college": "Employés",
+    "mandat": "Titulaire",
+    "photo": "assets/mathias.png"
+  },  
   {
     "nom": "Jonathan RAYNAUD",
     "site": "Angoulême",
@@ -56,6 +28,13 @@
     "photo": "assets/jonathan.png"
   },
   {
+    "nom": "Julie ZAMIT",
+    "site": "Lyon",
+    "college": "Employés",
+    "mandat": "Titulaire",
+    "photo": "assets/julie.png"
+  },
+    {
     "nom": "Corinne ANDRIOCCI",
     "site": "Angoulême",
     "college": "Employés",
@@ -63,6 +42,13 @@
     "photo": "assets/corine.png"
   },
   {
+    "nom": "Gallina WANLIN",
+    "site": "Paris",
+    "college": "Employés",
+    "mandat": "Titulaire",
+    "photo": "assets/Gallina.png"
+  },
+    {
     "nom": "Véronique PARENT",
     "site": "Paris",
     "college": "Employés",
@@ -70,11 +56,25 @@
     "photo": "assets/veronique parent.png"
   },
   {
+    "nom": "Sonia GUYNOUARD",
+    "site": "Paris",
+    "college": "Employés",
+    "mandat": "Titulaire",
+    "photo": "assets/Sonia.png"
+  },
+    {
     "nom": "Janes MORENO",
     "site": "Paris",
     "college": "Employés",
     "mandat": "Suppléante",
     "photo": "assets/janes.png"
+  },
+  {
+    "nom": "Adeline SALVATORE",
+    "site": "Angoulême",
+    "college": "Employés",
+    "mandat": "Titulaire",
+    "photo": "assets/adeline.png"
   },
   {
     "nom": "Manon DAUVE",
