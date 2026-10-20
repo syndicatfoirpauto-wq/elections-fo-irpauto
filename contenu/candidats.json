@@ -90,12 +90,26 @@
     "mandat": "Titulaire",
     "photo": "assets/Laure.png"
   },
+    {
+    "nom": "Kévin BAURREAU",
+    "site": "Angoulême",
+    "college": "Agents de maîtrise",
+    "mandat": "Suppléant",
+    "photo": "assets/Kevin.png"
+  },
   {
     "nom": "Andres CAMPOS RODRIGUEZ",
     "site": "Angoulême",
     "college": "Agents de maîtrise",
     "mandat": "Titulaire",
     "photo": "assets/andres.png"
+  },
+    {
+    "nom": "Anne-Cécile CHIRON",
+    "site": "Angoulême",
+    "college": "Agents de maîtrise",
+    "mandat": "Suppléante",
+    "photo": "assets/anne c.png"
   },
   {
     "nom": "Marcela COJOCARU",
@@ -104,33 +118,19 @@
     "mandat": "Titulaire",
     "photo": "assets/marcela.png"
   },
+    {
+    "nom": "Margarita MARTIN",
+    "site": "Paris",
+    "college": "Agents de maîtrise",
+    "mandat": "Suppléante",
+    "photo": "assets/maggy.png"
+  },
   {
     "nom": "Malory BOSC",
     "site": "BR Grand Est",
     "college": "Agents de maîtrise",
     "mandat": "Titulaire",
     "photo": "assets/Malory.png"
-  },
-  {
-    "nom": "Kévin BAURREAU",
-    "site": "Angoulême",
-    "college": "Agents de maîtrise",
-    "mandat": "Suppléant",
-    "photo": "assets/Kevin.png"
-  },
-  {
-    "nom": "Anne-Cécile CHIRON",
-    "site": "Angoulême",
-    "college": "Agents de maîtrise",
-    "mandat": "Suppléante",
-    "photo": "assets/anne c.png"
-  },
-  {
-    "nom": "Margarita MARTIN",
-    "site": "Paris",
-    "college": "Agents de maîtrise",
-    "mandat": "Suppléante",
-    "photo": "assets/maggy.png"
   },
   {
     "nom": "Vanessa MONTAUBAN JACQUET",
@@ -146,12 +146,26 @@
     "mandat": "Titulaire",
     "photo": "assets/virginie.png"
   },
+    {
+    "nom": "Juan-Carlos MORGADO DOS SANTOS",
+    "site": "Paris",
+    "college": "Cadres",
+    "mandat": "Suppléant",
+    "photo": "assets/juan carlos.png"
+  },
   {
     "nom": "Julien MACOUIN",
     "site": "Angoulême",
     "college": "Cadres",
     "mandat": "Titulaire",
     "photo": "assets/julien 2.png"
+  },  
+  {
+    "nom": "Elisabeth LE DUR",
+    "site": "Angoulême",
+    "college": "Cadres",
+    "mandat": "Suppléante",
+    "photo": "assets/Elisabeth.png"
   },
   {
     "nom": "Nahid BENLAHOUCINE",
@@ -161,32 +175,18 @@
     "photo": "assets/nahid.png"
   },
     {
-    "nom": "Dimitri ROSSIGNOL",
-    "site": "Angoulême",
-    "college": "Cadres",
-    "mandat": "Titulaire",
-    "photo": "assets/dimitri.png"
-  },
-  {
-    "nom": "Juan-Carlos MORGADO DOS SANTOS",
-    "site": "Paris",
-    "college": "Cadres",
-    "mandat": "Suppléant",
-    "photo": "assets/juan carlos.png"
-  },
-  {
-    "nom": "Elisabeth LE DUR",
-    "site": "Angoulême",
-    "college": "Cadres",
-    "mandat": "Suppléante",
-    "photo": "assets/Elisabeth.png"
-  },
-  {
     "nom": "Jérôme SURMANY",
     "site": "Angoulême",
     "college": "Cadres",
     "mandat": "Suppléant",
     "photo": "assets/jerome.png"
+  },
+    {
+    "nom": "Dimitri ROSSIGNOL",
+    "site": "Angoulême",
+    "college": "Cadres",
+    "mandat": "Titulaire",
+    "photo": "assets/dimitri.png"
   },
       {
     "nom": "Anne BARRERE",
