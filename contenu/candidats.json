@@ -83,6 +83,20 @@
     "mandat": "Suppléante",
     "photo": "assets/manon.png"
   },
+    {
+    "nom": "laure BENETEAU",
+    "site": "Angoulême",
+    "college": "Employés",
+    "mandat": "Titulaire",
+    "photo": "assets/adeline.png"
+  },
+  {
+    "nom": "laurence BALLET",
+    "site": "Angoulême",
+    "college": "Employés",
+    "mandat": "Suppléante",
+    "photo": "assets/manon.png"
+  },
   {
     "nom": "Laure CHABOT",
     "site": "Angoulême",
